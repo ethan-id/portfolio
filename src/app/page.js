@@ -3,7 +3,7 @@ import styles from './page.module.css'
 export default function Home() {
   return (
     <main className={styles.main}>
-      Hey, I'm Ethan!
+        <p>Hey, I'm Ethan!</p>
     </main>
   )
 }
