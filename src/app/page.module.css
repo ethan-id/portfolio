@@ -9,3 +9,13 @@
     padding: 2vw;
     width: 80%;
 }
+
+.nameCont {
+    display: flex;
+    flex-direction: row;
+}
+
+.software {
+    font-weight: bolder;
+    font-size: 9rem;
+}

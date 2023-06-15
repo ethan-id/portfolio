@@ -8,7 +8,17 @@ export default function Home() {
         <>
             <NavBar/>
             <main className={styles.body}>
-                <p>Hey, I'm Ethan!</p>
+                <div className={styles.nameCont}>
+                    <div className={styles.software}>
+                        Software
+                        &nbsp;&nbsp;&nbsp;&nbsp;Engineer
+                    </div>
+                    <img
+                        alt="picture of garfield sitting in front of a macbook"
+                        className="rounded-full"
+                        src="https://www.github.com/ethan-id.png"
+                    />
+                </div>
             </main>
             <Analytics />
         </>
