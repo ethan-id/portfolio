@@ -8,6 +8,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.15",
+    "@heroicons/react": "^2.0.18",
     "@vercel/analytics": "^1.0.1",
     "next": "13.4.5",
     "react": "18.2.0",
