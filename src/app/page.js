@@ -1,5 +1,3 @@
-'use client';
-
 import './globals.scss';
 import React from 'react';
 import {Analytics} from '@vercel/analytics/react';
