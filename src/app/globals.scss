@@ -2,7 +2,7 @@ $primary: #900;
 $enable-shadows: true;
 $prefix: "mo-";
 
-@import 'bootstrap/dist/css/bootstrap.min.css';
+@import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 :root {
   --max-width: 1100px;
