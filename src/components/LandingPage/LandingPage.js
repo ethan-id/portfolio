@@ -3,7 +3,7 @@ import React from 'react';
 
 export const LandingPage = () => {
     return (
-        <div className='grid grid-rows-2 md:grid-rows-2 lg:flex lg:mx-auto lg:px-40'>
+        <div className='grid grid-rows-2 m-10 md:grid-rows-2 lg:flex lg:mx-auto lg:px-40'>
             <div className={styles.software}>
                 Software
                 &nbsp;&nbsp;&nbsp;&nbsp;Engineer
