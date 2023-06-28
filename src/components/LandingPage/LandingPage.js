@@ -16,7 +16,7 @@ export const LandingPage = () => {
             </div>
 
             <div className="flex flex-row m-auto mt-80">
-                <div className="text-6xl m-auto h-40 mt-60">
+                <div className="text-6xl m-auto h-40 mt-60 mx-20">
                     Check out my GitHub!
                 </div>
                 <a 
