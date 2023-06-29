@@ -18,7 +18,7 @@ const Experience = () => {
                 <ul role="list" className="divide-y divide-gray-100">
                     <li className="flex justify-between gap-x-6 py-5">
                         <div className="flex gap-x-4">
-                            <img className="h-8 lg:h-12 w-8 lg:w-12 flex-none rounded-full bg-gray-50 m-auto" src="https://media.licdn.com/dms/image/D4E0BAQGHcvebsMflbA/company-logo_100_100/0/1684271619207?e=1695859200&v=beta&t=VhjlBcWQSzUC0CxmGoJ-eVnlkeXOy_iriCbl7NbBNBI" alt="Deere & Co. Logo"/>
+                            <img className="h-8 lg:h-16 w-8 lg:w-16 rounded-full mix-blend-screen m-auto" src="https://media.licdn.com/dms/image/D4E0BAQGHcvebsMflbA/company-logo_100_100/0/1684271619207?e=1695859200&v=beta&t=VhjlBcWQSzUC0CxmGoJ-eVnlkeXOy_iriCbl7NbBNBI" alt="Deere & Co. Logo"/>
                             <div className="min-w-0 flex-auto m-auto">
                                 <p className="text-lg lg:text-2xl font-semibold">John Deere</p>
                             </div>
@@ -30,7 +30,7 @@ const Experience = () => {
                     </li>
                     <li className="flex justify-between gap-x-6 py-5">
                         <div className="flex gap-x-4">
-                            <img className="h-8 lg:h-12 w-8 lg:w-12 flex-none rounded-full bg-gray-50 m-auto" src="https://media.licdn.com/dms/image/C560BAQF5eFV54Ah03Q/company-logo_100_100/0/1670603375387?e=1695859200&v=beta&t=2qiWzuJ5q6rgNeWTSxlKZVjJ7iNaZZ7Waaf0twd08JQ" alt="ProMax Logo"/>
+                            <img className="h-8 lg:h-16 w-8 lg:w-16 rounded-full mix-blend-screen m-auto" src="https://media.licdn.com/dms/image/C560BAQF5eFV54Ah03Q/company-logo_100_100/0/1670603375387?e=1695859200&v=beta&t=2qiWzuJ5q6rgNeWTSxlKZVjJ7iNaZZ7Waaf0twd08JQ" alt="ProMax Logo"/>
                             <div className="min-w-0 align-center m-auto">
                                 <p className="text-lg lg:text-2xl font-semibold">ProMax</p>
                             </div>
@@ -38,6 +38,26 @@ const Experience = () => {
                         <div className="align-center">
                             <p className="text-sm lg:text-2xl text-right font-semibold">Software Engineering Intern</p>
                             <p className="flex mt-1 text-xs lg:text-lg justify-end">Jan 2020 - Apr 2020</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div className='md:mx-40 lg:mx-56 mt-10'>
+                <div className="flex justify-left text-2xl lg:text-5xl font-semibold mb-5">
+                    Education
+                </div>
+                <ul role="list" className="divide-y divide-gray-100">
+                    <li className="flex justify-between gap-x-6 py-5">
+                        <div className="flex gap-x-4">
+                            <img className="h-8 lg:h-16 w-8 lg:w-16 flex-none m-auto" src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Iowa_State_Cyclones_logo.svg" alt="Deere & Co. Logo"/>
+                            <div className="min-w-0 flex-auto m-auto">
+                                <p className="text-lg lg:text-2xl font-semibold">Iowa State University</p>
+                            </div>
+                        </div>
+                        <div className="align-center">
+                            <p className="text-sm lg:text-2xl text-right font-semibold">BS Software Engineering</p>
+                            <p className="flex mt-1 text-xs lg:text-lg justify-end">Aug 2021 - May 2025</p>
                         </div>
                     </li>
                 </ul>
