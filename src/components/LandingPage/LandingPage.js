@@ -1,5 +1,6 @@
 import styles from './LandingPage.module.scss';
 import React from 'react';
+import classNames from 'classnames';
 import Image from 'next/image'
 import github from './github.png'
 import me from './IMG_1317.jpg';
@@ -10,16 +11,16 @@ export const LandingPage = () => {
         <div className='flex flex-col mx-10 2xl:mx-60'>
             <div className='flex flex-col 2xl:my-20 2xl:flex-row justify-between'>
                 <div className='flex flex-col my-20 2xl:ml-20 2xl:my-48 leading-normal'>
-                    <div className='text-5xl lg:text-8xl font-bold'>
+                    <div className={classNames('text-4xl', 'lg:text-8xl', 'font-bold', styles.myText,)}>
                         Hey, I'm Ethan!
                     </div>
-                    <div className='text-3xl ml-20 mt-5 lg:mt-10 lg:text-7xl font-normal'>
+                    <div className='text-2xl ml-20 mt-5 lg:mt-10 lg:text-7xl font-normal'>
                         I do a little coding sometimes
                     </div>
                 </div>
                 <Image  
                     src={me}
-                    className="dark:block w-full rounded-full mb-20 w-48 h-48 2xl:w-96 2xl:h-96 m-auto"
+                    className="dark:block w-100 rounded-full mb-20 w-48 h-48 2xl:w-96 2xl:h-96 m-auto"
                     alt="Screenshot of my github profile"
                 />
             </div>
