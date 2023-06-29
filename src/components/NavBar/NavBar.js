@@ -4,7 +4,7 @@ const NavBar = () => {
     return (
         <nav className="border-b-2 border-solid border-blue-300 flex flex-wrap items-center justify-between mx-auto p-10 px-14 lg:px-28">
             <span className="self-center text-3xl sm:text-4xl font-semibold whitespace-nowrap dark:text-white">
-                Ethan Hancock
+                {'< Ethan Hancock />'}
             </span>
 
             {/* <button>
