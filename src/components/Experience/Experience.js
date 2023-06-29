@@ -3,15 +3,15 @@ import React from 'react';
 const Experience = () => {
     return (
         <div className='lg:mt-60 lg:mb-20'>
-            <div className="text-2xl lg:text-7xl font-normal leading-relaxed">
+            <div className="text-2xl text-center lg:text-7xl font-normal leading-relaxed">
                 Want to hire me?<br/>
-                <div className='ml-5 lg:ml-20 font-bold'>
+                <div className='mt-2 lg:mt-5 font-bold'>
                     Here's what I can offer
                 </div>
             </div>
             <hr className='mt-4'/>
 
-            <div className='md:mx-40 lg:mx-60 mt-10'>
+            <div className='md:mx-40 lg:mx-56 mt-10'>
                 <div className="flex justify-left text-2xl lg:text-5xl font-semibold mb-5">
                     Previous Experience
                 </div>
@@ -43,7 +43,7 @@ const Experience = () => {
                 </ul>
             </div>
 
-            <div className='mt-10 md:mx-40 lg:mx-60'>
+            <div className='mt-10 md:mx-40 lg:mx-56'>
                 <div className='flex justify-left text-2xl lg:text-5xl font-semibold mb-5'>
                     Technical Skills
                 </div>
