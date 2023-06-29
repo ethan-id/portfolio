@@ -12,7 +12,7 @@ const Experience = () => {
             <hr className='mt-4'/>
 
             <div className='md:mx-40 lg:mx-56 mt-10'>
-                <div className="flex justify-left text-2xl lg:text-5xl font-semibold mb-5">
+                <div className="flex justify-left text-2xl lg:text-5xl font-semibold lg:mb-5">
                     Previous Experience
                 </div>
                 <ul role="list" className="divide-y divide-gray-100">
@@ -44,7 +44,7 @@ const Experience = () => {
             </div>
 
             <div className='md:mx-40 lg:mx-56 mt-10'>
-                <div className="flex justify-left text-2xl lg:text-5xl font-semibold mb-5">
+                <div className="flex justify-left text-2xl lg:text-5xl font-semibold lg:mb-5">
                     Education
                 </div>
                 <ul role="list" className="divide-y divide-gray-100">
@@ -64,7 +64,7 @@ const Experience = () => {
             </div>
 
             <div className='mt-10 md:mx-40 lg:mx-56'>
-                <div className='flex justify-left text-2xl lg:text-5xl font-semibold mb-5'>
+                <div className='flex justify-left text-2xl lg:text-5xl font-semibold lg:mb-5'>
                     Technical Skills
                 </div>
                 <div className='flex flex-row'>
