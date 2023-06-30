@@ -43,7 +43,7 @@ const Experience = () => {
                 </ul>
             </div>
 
-            <div className='md:mx-40 lg:mx-56 mt-10'>
+            <div className='md:mx-40 lg:mx-56 mt-5'>
                 <div className="flex justify-left text-2xl lg:text-5xl font-semibold lg:mb-5">
                     Education
                 </div>
@@ -63,7 +63,7 @@ const Experience = () => {
                 </ul>
             </div>
 
-            <div className='mt-10 md:mx-40 lg:mx-56'>
+            <div className='mt-5 md:mx-40 lg:mx-56'>
                 <div className='flex justify-left text-2xl lg:text-5xl font-semibold lg:mb-5'>
                     Technical Skills
                 </div>
@@ -77,7 +77,7 @@ const Experience = () => {
                                 </div>
                             </div>
                         </li>
-                        
+
                         <li className="flex flex-col justify-between gap-x-6 py-5">
                             <div className="flex flex-row m-auto gap-x-2">
                                 <img className="h-8 lg:h-12 w-8 lg:w-12 flex-none mix-blend-screen m-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React Logo"/>
