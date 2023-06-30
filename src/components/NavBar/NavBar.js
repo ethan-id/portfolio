@@ -4,7 +4,6 @@ import React from 'react';
 import Image from 'next/image';
 import ig from './ig.png';
 import styles from './NavBar.module.scss';
-import classNames from 'classnames';
 
 const NavBar = () => {
     return (
