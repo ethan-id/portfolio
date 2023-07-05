@@ -11,7 +11,7 @@ export const LandingPage = () => {
         <div className='flex flex-col mx-10 2xl:mx-60'>
             <div className='flex flex-col 2xl:my-20 2xl:flex-row justify-between'>
                 <div className='flex flex-col my-20 2xl:ml-20 leading-normal'>
-                    <div className={classNames('text-4xl', 'lg:text-8xl', 'font-bold', styles.myText,)}>
+                    <div className={classNames('text-4xl', 'lg:text-8xl', 'font-bold', styles.myText)}>
                         Hey, I'm Ethan!
                     </div>
                     <div className='text-2xl ml-20 mt-5 lg:mt-10 lg:text-7xl font-normal'>
@@ -20,23 +20,23 @@ export const LandingPage = () => {
                 </div>
                 <Image
                     src={me}
-                    className="dark:block w-100 rounded-full mb-20 w-48 h-48 2xl:w-96 2xl:h-96 m-auto"
+                    className={classNames(styles.grow, "outline outline-4 outline-amber-700 dark:block w-100 rounded-full mb-20 w-48 h-48 2xl:w-96 2xl:h-96 m-auto")}
                     alt="Screenshot of my github profile"
                 />
             </div>
 
             <div className="flex flex-col 2xl:flex-row m-auto mb-20 2xl:mb-48 2xl:mt-40">
-                <div className="text-2xl lg:text-6xl my-auto text-center leading-tight">
+                <div className="text-2xl lg:text-6xl my-auto text-center leading-tight mb-4">
                     Check out my <a className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-purple-600" href="https://www.github.com/ethan-id">GitHub</a> to see my most recent projects!
                 </div>
                 <a
                     href="https://www.github.com/ethan-id/"
-                    className="mx-2 mt-2 border-gray-800 dark:border-gray-800 bg-gray-800 border-[8px] rounded-xl"
+                    className="shadow-[0px_0px_100px_15px_rgba(42,14,128,0.8)] mx-2 mt-2 border-gray-800 dark:border-gray-800 bg-gray-800 border-[8px] rounded-xl"
                 >
                     <div className="rounded-lg overflow-hidden bg-white dark:bg-gray-800">
                         <Image
                             src={github}
-                            className="dark:block w-full rounded w-[125vw]"
+                            className={classNames(styles.grow,"dark:block w-full rounded w-[125vw]")}
                             alt="Screenshot of my github profile"
                         />
                     </div>
