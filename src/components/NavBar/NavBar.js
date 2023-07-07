@@ -4,24 +4,25 @@ import React from 'react';
 import Image from 'next/image';
 import ig from './ig.png';
 import styles from './NavBar.module.scss';
+import growStyle from '../LandingPage/LandingPage.module.scss';
 import classNames from 'classnames';
 
 const NavBar = () => {
     return (
         <nav>
             <nav className="flex flex-col 2xl:flex-row justify-between mx-auto p-10 px-14 lg:px-28">
-                <span className="self-center text-3xl sm:text-4xl font-semibold whitespace-nowrap dark:text-white">
+                <span className="self-center text-3xl sm:text-4xl font-semibold whitespace-nowrap text-white">
                     {'<Ethan Hancock>'}
                 </span>
 
-                <div className="flex flex-row justify-center gap-x-4 mt-5">
-                    <a href="https://www.linkedin.com/in/ethanhancock23">
-                        <img className="h-8 lg:h-12 w-8 lg:w-12" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn Logo"/>
+                <div className="flex flex-row justify-center gap-x-4">
+                    <a target="_blank" href="https://www.linkedin.com/in/ethanhancock23">
+                        <img className={classNames(growStyle.grow, "h-8 lg:h-12 w-8 lg:w-12")} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn Logo"/>
                     </a>
-                    <a href="https://www.instagram.com/ethan.idfk/">
+                    <a target="_blank" href="https://www.instagram.com/ethan.idfk/">
                         <Image
                             src={ig}
-                            className="h-8 lg:h-12 w-8 lg:w-12"
+                            className={classNames(growStyle.grow, "h-8 lg:h-12 w-8 lg:w-12")}
                             alt="Screenshot of my github profile"
                         />
                     </a>
