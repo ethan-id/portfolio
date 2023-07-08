@@ -11,16 +11,16 @@ export const LandingPage = () => {
         <div className='flex flex-col mx-10 2xl:mx-60'>
             <div className='flex flex-col 2xl:my-20 2xl:flex-row justify-between'>
                 <div className='flex flex-col my-20 2xl:ml-20 leading-normal'>
-                    <div className={classNames('text-4xl', 'lg:text-8xl', 'font-bold', styles.myText)}>
+                    <div className={classNames('text-4xl', 'lg:text-8xl', 'font-bold', styles.myText, styles.fadeDown1)}>
                         Hey, I'm Ethan!
                     </div>
-                    <div className='text-2xl ml-20 mt-5 lg:mt-10 lg:text-7xl font-normal'>
+                    <div className={classNames('text-2xl ml-20 mt-5 lg:mt-10 lg:text-7xl font-normal', styles.fadeDown2)}>
                         I do a little coding sometimes
                     </div>
                 </div>
                 <Image
                     src={me}
-                    className={classNames(styles.grow, "outline outline-4 outline-amber-700 dark:block w-100 rounded-full mb-20 w-48 h-48 2xl:w-96 2xl:h-96 m-auto")}
+                    className={classNames(styles.grow, styles.fade, "outline outline-4 outline-amber-700 dark:block w-100 rounded-full mb-20 w-48 h-48 2xl:w-96 2xl:h-96 m-auto")}
                     alt="Screenshot of my github profile"
                 />
             </div>
