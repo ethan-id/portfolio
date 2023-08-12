@@ -5,6 +5,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   generator: 'Next.js',
+  title: 'Ethan Hancock - Full-Stack Software Engineer Portfolio',
   applicationName: 'Ethan Hancock - Full-Stack Software Engineer Portfolio',
   description: "Explore the full-stack software engineering portfolio of Ethan Hancock. Specializing in Java, Python, JavaScript, TypeScript, and more, Ethan has a diverse range of skills and experiences. Discover personal projects including a Java-based Minesweeper clone, a Next.js personal website, and a Puppeteer project for stock market analysis. Check out Ethan's GitHub for more.",
   referrer: 'origin-when-cross-origin',
