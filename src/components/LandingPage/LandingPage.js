@@ -21,7 +21,7 @@ export const LandingPage = () => {
                 <Image
                     src={me}
                     className={classNames(styles.grow, styles.fade, "outline outline-4 outline-amber-700 dark:block w-100 rounded-full mb-20 w-48 h-48 2xl:w-96 2xl:h-96 m-auto")}
-                    alt="Screenshot of my github profile"
+                    alt="Photo of Ethan Hancock"
                 />
             </div>
 
@@ -36,7 +36,7 @@ export const LandingPage = () => {
                     <div className="rounded-lg overflow-hidden bg-white dark:bg-gray-800">
                         <Image
                             src={github}
-                            className={classNames(styles.grow,"dark:block w-full rounded w-[125vw]")}
+                            className={classNames(styles.grow,"dark:block rounded w-[100vw]")}
                             alt="Screenshot of my github profile"
                         />
                     </div>
