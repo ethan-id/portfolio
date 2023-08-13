@@ -36,7 +36,7 @@ export const LandingPage = () => {
                     <div className="rounded-lg overflow-hidden bg-white dark:bg-gray-800">
                         <Image
                             src={github}
-                            className={classNames(styles.grow,"dark:block w-full rounded w-[125vw]")}
+                            className={classNames(styles.grow,"dark:block rounded w-[100vw]")}
                             alt="Screenshot of my github profile"
                         />
                     </div>
