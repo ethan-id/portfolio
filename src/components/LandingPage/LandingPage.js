@@ -21,7 +21,7 @@ export const LandingPage = () => {
                 <Image
                     src={me}
                     className={classNames(styles.grow, styles.fade, "outline outline-4 outline-amber-700 dark:block w-100 rounded-full mb-20 w-48 h-48 2xl:w-96 2xl:h-96 m-auto")}
-                    alt="Screenshot of my github profile"
+                    alt="Photo of Ethan Hancock"
                 />
             </div>
 
