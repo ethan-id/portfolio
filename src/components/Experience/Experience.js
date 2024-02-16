@@ -1,4 +1,7 @@
 import React from 'react';
+import Image from 'next/image'
+import deere from '../../images/deere-logo.png';
+import promax from '../../images/promax-logo.jpeg';
 
 const Experience = () => {
     return (
@@ -18,7 +21,11 @@ const Experience = () => {
                 <ul role="list" className="divide-y divide-gray-100">
                     <li className="flex justify-between gap-x-6 py-5">
                         <div className="flex gap-x-4">
-                            <img className="h-8 lg:h-16 w-8 lg:w-16 rounded-full mix-blend-screen m-auto" src="https://media.licdn.com/dms/image/D4E0BAQGHcvebsMflbA/company-logo_100_100/0/1684271619207?e=1695859200&v=beta&t=VhjlBcWQSzUC0CxmGoJ-eVnlkeXOy_iriCbl7NbBNBI" alt="Deere & Co. Logo"/>
+                            <Image
+                                src={deere}
+                                className={"h-8 lg:h-16 w-8 lg:w-16 mix-blend-screen m-auto"}
+                                alt="John Deere Logo"
+                            />
                             <div className="min-w-0 flex-auto m-auto">
                                 <p className="text-lg lg:text-2xl font-semibold">John Deere</p>
                             </div>
@@ -30,7 +37,11 @@ const Experience = () => {
                     </li>
                     <li className="flex justify-between gap-x-6 py-5">
                         <div className="flex gap-x-4">
-                            <img className="h-8 lg:h-16 w-8 lg:w-16 rounded-full mix-blend-screen m-auto" src="https://media.licdn.com/dms/image/C560BAQF5eFV54Ah03Q/company-logo_100_100/0/1670603375387?e=1695859200&v=beta&t=2qiWzuJ5q6rgNeWTSxlKZVjJ7iNaZZ7Waaf0twd08JQ" alt="ProMax Logo"/>
+                            <Image
+                                src={promax}
+                                className={"h-8 lg:h-16 w-8 lg:w-16 rounded-lg mix-blend-screen m-auto"}
+                                alt="ProMax Logo"
+                            />
                             <div className="min-w-0 align-center m-auto">
                                 <p className="text-lg lg:text-2xl font-semibold">ProMax</p>
                             </div>
@@ -106,10 +117,10 @@ const Experience = () => {
                                 </div>
                             </div>
                         </li>
-
+          
                         <li className="flex justify-between gap-x-6 py-5">
                             <div className="flex flex-row m-auto gap-x-2">
-                                <img className="h-8 lg:h-12 w-8 lg:w-12 flex-none mix-blend-screen m-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt=' Logo'/>
+                                <img className="h-8 lg:h-12 w-8 lg:w-12 flex-none mix-blend-screen m-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt='Tailwind Logo'/>
                                 <div className="min-w-0 flex-auto m-auto">
                                     <p className="text-xs lg:text-2xl font-semibold">Tailwind</p>
                                 </div>
