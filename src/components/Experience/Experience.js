@@ -67,7 +67,7 @@ const Experience = () => {
                             </div>
                         </div>
                         <div className="align-center">
-                            <p className="text-sm lg:text-2xl text-right font-semibold">BS Software Engineering</p>
+                            <p className="text-sm lg:text-2xl text-right font-semibold">B.S. Software Engineering</p>
                             <p className="flex mt-1 text-xs lg:text-lg justify-end">Aug 2021 - Dec 2025</p>
                         </div>
                     </li>
