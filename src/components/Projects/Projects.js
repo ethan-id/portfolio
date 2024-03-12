@@ -10,7 +10,7 @@ export const Projects = () => {
 
 
     return (
-      <section className='my-2'>
+      <section className='my-20'>
         <p className='text-2xl lg:text-6xl my-auto text-center leading-tight mb-12 font-bold'>Projects</p>
 
         <div className='flex flex-col lg:flex-row justify-center items-center gap-8'>
