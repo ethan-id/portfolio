@@ -54,6 +54,7 @@ const Experience = () => {
                 </ul>
             </div>
 
+            {/* Education */}
             <div className='md:mx-40 lg:mx-56 mt-5'>
                 <div className="flex justify-left text-2xl lg:text-5xl font-semibold lg:mb-5">
                     Education
@@ -74,6 +75,7 @@ const Experience = () => {
                 </ul>
             </div>
 
+            {/* Technical Skills */}
             <div className='mt-5 md:mx-40 lg:mx-56'>
                 <div className='flex justify-left text-2xl lg:text-5xl font-semibold lg:mb-5'>
                     Technical Skills
