@@ -26,10 +26,11 @@ export const LandingPage = () => {
                         alt="Photo of Ethan Hancock"
                     />
                 </div>
+            </div>
 
             <Projects/>
 
-            <div className="flex flex-col 2xl:flex-row m-auto mb-20 2xl:mb-48 2xl:mt-40">
+            <div className="flex flex-col 2xl:flex-row m-aut mx-10 2xl:mx-60 mb-20 2xl:mb-48 2xl:mt-40">
                 <div className="text-xl lg:text-5xl my-auto text-center leading-tight">
                     Check out my <a className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-purple-600" href="https://www.github.com/ethan-id">GitHub</a> to see more details about my projects!
                 </div>

@@ -5,7 +5,7 @@ import promax from '../../images/promax-logo.jpeg';
 
 const Experience = () => {
     return (
-        <div className='mx-10 2xl:mx-60 lg:mt-60 lg:mb-20'>
+        <div className='mx-10 2xl:mx-60 lg:mt-40 lg:mb-20'>
             <div className="text-2xl text-center lg:text-7xl font-normal leading-relaxed">
                 Want to hire me?<br/>
                 <div className='mt-2 lg:mt-5 font-bold'>

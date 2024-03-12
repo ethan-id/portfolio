@@ -9,7 +9,7 @@ import YahooScraperLogo from './yahoo-scraper.png';
 export const Projects = () => {
 
     return (
-      <section className='py-20 border-none bg-gradient-to-r from-blue-300 to-purple-600'> 
+      <section className='mt-40 py-20 border-none bg-gradient-to-r from-blue-300 to-purple-600'> 
         <p className='text-5xl lg:text-6xl my-auto text-center leading-tight mb-12 font-bold text-gray-900'>Projects</p>
 
         <div className='flex flex-col lg:flex-row justify-center items-center gap-8'>
