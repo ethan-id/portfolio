@@ -9,22 +9,23 @@ import {Projects} from '../Projects/Projects';
 
 export const LandingPage = () => {
     return (
-        <div className='flex flex-col mx-10 2xl:mx-60'>
-            <div className='flex flex-col 2xl:my-20 2xl:flex-row justify-between'>
-                <div className='flex flex-col my-20 2xl:ml-20 leading-normal'>
-                    <div className={classNames('text-4xl', 'lg:text-8xl', 'font-bold', styles.myText, styles.fadeDown1)}>
-                        Hey, I'm Ethan!
+        <div className='flex flex-col'>
+            <div className='mx-10 2xl:mx-60'>
+                <div className='flex flex-col 2xl:my-20 2xl:flex-row justify-between'>
+                    <div className='flex flex-col my-20 2xl:ml-20 leading-normal'>
+                        <div className={classNames('text-4xl', 'lg:text-8xl', 'font-bold', styles.myText, styles.fadeDown1)}>
+                            Hey, I'm Ethan!
+                        </div>
+                        <div className={classNames('text-2xl ml-20 mt-5 lg:mt-10 lg:text-7xl font-normal', styles.fadeDown2)}>
+                            I do a little coding sometimes
+                        </div>
                     </div>
-                    <div className={classNames('text-2xl ml-20 mt-5 lg:mt-10 lg:text-7xl font-normal', styles.fadeDown2)}>
-                        I do a little coding sometimes
-                    </div>
+                    <Image
+                        src={me}
+                        className={classNames(styles.grow, styles.fade, "outline outline-4 outline-amber-700 dark:block w-100 rounded-full mb-20 w-48 h-48 2xl:w-96 2xl:h-96 m-auto")}
+                        alt="Photo of Ethan Hancock"
+                    />
                 </div>
-                <Image
-                    src={me}
-                    className={classNames(styles.grow, styles.fade, "outline outline-4 outline-amber-700 dark:block w-100 rounded-full mb-20 w-48 h-48 2xl:w-96 2xl:h-96 m-auto")}
-                    alt="Photo of Ethan Hancock"
-                />
-            </div>
 
             <Projects/>
 
