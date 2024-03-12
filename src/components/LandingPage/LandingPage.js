@@ -5,6 +5,7 @@ import Image from 'next/image'
 import github from './github.png'
 import me from './IMG_1317.jpg';
 import Experience from '../Experience/Experience';
+import {Projects} from '../Projects/Projects';
 
 export const LandingPage = () => {
     return (
@@ -26,8 +27,8 @@ export const LandingPage = () => {
             </div>
 
             <div className="flex flex-col 2xl:flex-row m-auto mb-20 2xl:mb-48 2xl:mt-40">
-                <div className="text-2xl lg:text-6xl my-auto text-center leading-tight">
-                    Check out my <a className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-purple-600" href="https://www.github.com/ethan-id">GitHub</a> to see my most recent projects!
+                <div className="text-xl lg:text-5xl my-auto text-center leading-tight">
+                    Check out my <a className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-purple-600" href="https://www.github.com/ethan-id">GitHub</a> to see more details about my projects!
                 </div>
                 <a
                     href="https://www.github.com/ethan-id/"
@@ -42,6 +43,8 @@ export const LandingPage = () => {
                     </div>
                 </a>
             </div>
+
+            <Projects/>
 
             <Experience/>
         </div>
