@@ -8,17 +8,16 @@ import YahooScraperLogo from './yahoo-scraper.png';
 
 export const Projects = () => {
 
-
     return (
-      <section className='my-20'>
-        <p className='text-2xl lg:text-6xl my-auto text-center leading-tight mb-12 font-bold'>Projects</p>
+      <section className='mt-40 py-20 border-none bg-gradient-to-r from-blue-300 to-purple-600'> 
+        <p className='text-5xl lg:text-6xl my-auto text-center leading-tight mb-12 font-bold text-gray-900'>Projects</p>
 
         <div className='flex flex-col lg:flex-row justify-center items-center gap-8'>
-            <Card className="max-w-[400px] bg-gray-800 rounded-2xl p-4 w-5/6 h-80">
+            <Card isBlurred className="shadow-2xl max-w-[400px] border-2 border-black rounded-2xl p-4 w-5/6 h-80 text-black">
                 <CardHeader className="flex gap-3">
                     <Image
                         alt="nextui logo"
-                        className='w-12 lg:w-24 bg-black rounded-full'
+                        className='w-12 lg:w-24 bg-white rounded-full'
                         src={BizGlimpseLogo}
                     />
                     <div className="flex flex-col">
@@ -46,7 +45,7 @@ export const Projects = () => {
                 </CardFooter>
             </Card>
 
-            <Card className="max-w-[400px] bg-gray-800 rounded-2xl p-4 w-5/6 h-80">
+            <Card isBlurred className="shadow-2xl max-w-[400px] border-2 border-black rounded-2xl p-4 w-5/6 h-80 text-black">
                 <CardHeader className="flex gap-3">
                     <Image
                         alt="nextui logo"
@@ -78,7 +77,7 @@ export const Projects = () => {
                 </CardFooter>
             </Card>
 
-            <Card className="max-w-[400px] bg-gray-800 rounded-2xl p-4 w-5/6 h-80">
+            <Card isBlurred className="shadow-2xl max-w-[400px] border-2 border-black rounded-2xl p-4 w-5/6 h-80 text-black">
                 <CardHeader className="flex gap-3">
                     <Image
                         alt="nextui logo"
