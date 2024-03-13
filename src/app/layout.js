@@ -5,6 +5,7 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
+  metadataBase: new URL('https://www.ethanhancock.org'),
   generator: 'Next.js',
   title: 'Ethan Hancock - Full-Stack Software Engineer Portfolio',
   applicationName: 'Ethan Hancock - Full-Stack Software Engineer Portfolio',
@@ -23,8 +24,8 @@ export const metadata = {
   publisher: 'Ethan Hancock',
   robots: 'index, follow',
   openGraph: {
-    title: 'Ethan Hancock - Full-Stack Software Engineer Portfolio',
-    description: "Explore the full-stack software engineering portfolio of Ethan Hancock. Specializing in Java, Python, JavaScript, TypeScript, and more, Ethan has a diverse range of skills and experiences. Discover personal projects including a Java-based Minesweeper clone, a Next.js personal website, and a Puppeteer project for stock market analysis. Check out Ethan's GitHub for more.",
+    title: 'Ethan Hancock - Software Engineer',
+    description: "Explore the software engineering portfolio of Ethan Hancock. Specializing in avaScript, TypeScript, Java, Python, and more, Ethan has a diverse range of skills and experiences.",
     url: 'https://www.ethanhancock.org',
     type: 'website',
   },
