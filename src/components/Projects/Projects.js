@@ -7,12 +7,16 @@ import DinderLogo from './dinder_logo_512.png';
 import YahooScraperLogo from './yahoo-scraper.png';
 import classNames from 'classnames';
 import styles from '../LandingPage/LandingPage.module.scss';
+import { TypewriterEffect } from '../shared/TypeWriterEffect';
 
 export const Projects = () => {
 
     return (
       <section className='shadow-inset mt-40 py-20 border-none bg-gradient-to-r from-blue-300 to-purple-600'> 
-        <p className='text-5xl lg:text-6xl my-auto text-center leading-tight mb-12 font-bold text-gray-900'>Projects</p>
+        <TypewriterEffect 
+            words={[{text: 'Projects', className: 'text-5xl lg:text-6xl my-auto text-center leading-tight mb-12 font-bold text-gray-900 dark:text-gray-900'}]}
+            cursorClassName={'hidden'}
+        />
 
         <div className='flex flex-col lg:flex-row justify-center items-center gap-8'>
             <Card isBlurred className={classNames(styles.grow, "shadow-2xl max-w-[400px] border-2 border-black rounded-2xl p-4 w-5/6 h-80 text-black")}>
