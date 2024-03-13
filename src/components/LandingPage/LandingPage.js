@@ -6,21 +6,34 @@ import github from './github.png'
 import me from './me.png';
 import Experience from '../Experience/Experience';
 import {Projects} from '../Projects/Projects';
+import {Link} from '@nextui-org/react';
 
 export const LandingPage = () => {
     return (
-        <div className='flex flex-col'>
+        <div className='flex flex-col '>
             <div className='mx-10 2xl:mx-60'>
-                <div className='flex flex-col gap-16 my-10 2xl:my-20 md:flex-row justify-between items-center'>
+                <div className='flex flex-col gap-48 my-10 2xl:my-10 md:flex-row justify-between items-center'>
                     <div className='flex flex-col leading-normal'>
-                        <p className={classNames('text-4xl', 'lg:text-8xl', 'font-bold', styles.myText, styles.fadeDown1)}>
+                        <p className={classNames('text-6xl', 'lg:text-8xl', 'font-bold', styles.myText, styles.fadeDown1)}>
                             Hey, I'm Ethan!
                         </p>
-                        <p className={classNames('text-2xl ml-10 md:ml-20 mt-5 lg:mt-10 lg:text-7xl font-normal', styles.fadeDown2)}>
-                            I build precise, engaging, accessible software.
-                        </p>
+                        <div className={classNames('text-5xl ml-10 md:ml-20 mt-5 lg:mt-10 lg:text-6xl font-normal', styles.fadeDown2)}>
+                            I build 
+                            <div className='py-2 mx-2 dark:bg-black bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center'>
+                                <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_70%,black)]"></div>
+                                precise,
+                            </div> 
+                            <p className='underline py-2'>engaging,</p>
+                            <Link 
+                                isExternal
+                                href="https://www.a11yproject.com/"
+                                className='py-2 text-purple-700 relative flex items-center justify-end'>
+                                    a11y-driven
+                            </Link>
+                            software.
+                        </div>
                     </div>
-                    <div className={classNames(styles.fade, 'flex flex-col justify-center items-center')}>
+                    <div className={classNames(styles.fade, 'flex flex-col justify-center items-center w-5/6')}>
                         <Image
                             src={me}
                             className='dark:block rounded-3xl'
