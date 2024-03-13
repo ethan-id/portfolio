@@ -3,7 +3,7 @@ import React from 'react';
 import classNames from 'classnames';
 import Image from 'next/image'
 import github from './github.png'
-import me from './IMG_1317.jpg';
+import me from './me.png';
 import Experience from '../Experience/Experience';
 import {Projects} from '../Projects/Projects';
 
@@ -11,20 +11,23 @@ export const LandingPage = () => {
     return (
         <div className='flex flex-col'>
             <div className='mx-10 2xl:mx-60'>
-                <div className='flex flex-col 2xl:my-20 2xl:flex-row justify-between'>
-                    <div className='flex flex-col my-20 2xl:ml-20 leading-normal'>
-                        <div className={classNames('text-4xl', 'lg:text-8xl', 'font-bold', styles.myText, styles.fadeDown1)}>
+                <div className='flex flex-col gap-16 my-10 2xl:my-20 md:flex-row justify-between items-center'>
+                    <div className='flex flex-col leading-normal'>
+                        <p className={classNames('text-4xl', 'lg:text-8xl', 'font-bold', styles.myText, styles.fadeDown1)}>
                             Hey, I'm Ethan!
-                        </div>
-                        <div className={classNames('text-2xl ml-20 mt-5 lg:mt-10 lg:text-7xl font-normal', styles.fadeDown2)}>
-                            I do a little coding sometimes
-                        </div>
+                        </p>
+                        <p className={classNames('text-2xl ml-10 md:ml-20 mt-5 lg:mt-10 lg:text-7xl font-normal', styles.fadeDown2)}>
+                            I build precise, engaging, accessible software.
+                        </p>
                     </div>
-                    <Image
-                        src={me}
-                        className={classNames(styles.grow, styles.fade, "outline outline-4 outline-amber-700 dark:block w-100 rounded-full mb-20 w-48 h-48 2xl:w-96 2xl:h-96 m-auto")}
-                        alt="Photo of Ethan Hancock"
-                    />
+                    <div className={classNames(styles.fade, 'flex flex-col justify-center items-center')}>
+                        <Image
+                            src={me}
+                            className='dark:block rounded-3xl'
+                            alt="Photo of Ethan Hancock"
+                        />
+                        <p className='text-ld mt-2'>There I am!</p>
+                    </div>
                 </div>
             </div>
 

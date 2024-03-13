@@ -5,6 +5,8 @@ import Image from 'next/image';
 import BizGlimpseLogo from './Logo.png';
 import DinderLogo from './dinder_logo_512.png';
 import YahooScraperLogo from './yahoo-scraper.png';
+import classNames from 'classnames';
+import styles from '../LandingPage/LandingPage.module.scss';
 
 export const Projects = () => {
 
@@ -13,10 +15,10 @@ export const Projects = () => {
         <p className='text-5xl lg:text-6xl my-auto text-center leading-tight mb-12 font-bold text-gray-900'>Projects</p>
 
         <div className='flex flex-col lg:flex-row justify-center items-center gap-8'>
-            <Card isBlurred className="shadow-2xl max-w-[400px] border-2 border-black rounded-2xl p-4 w-5/6 h-80 text-black">
+            <Card isBlurred className={classNames(styles.grow, "shadow-2xl max-w-[400px] border-2 border-black rounded-2xl p-4 w-5/6 h-80 text-black")}>
                 <CardHeader className="flex gap-3">
                     <Image
-                        alt="nextui logo"
+                        alt="BizGlimpse Logo"
                         className='w-12 lg:w-24 bg-white rounded-full'
                         src={BizGlimpseLogo}
                     />
@@ -45,10 +47,10 @@ export const Projects = () => {
                 </CardFooter>
             </Card>
 
-            <Card isBlurred className="shadow-2xl max-w-[400px] border-2 border-black rounded-2xl p-4 w-5/6 h-80 text-black">
+            <Card isBlurred className={classNames(styles.grow, "shadow-2xl max-w-[400px] border-2 border-black rounded-2xl p-4 w-5/6 h-80 text-black")}>
                 <CardHeader className="flex gap-3">
                     <Image
-                        alt="nextui logo"
+                        alt="Dinder Logo"
                         className='w-12 lg:w-24 bg-black rounded-full'
                         src={DinderLogo}
                     />
@@ -78,10 +80,10 @@ export const Projects = () => {
                 </CardFooter>
             </Card>
 
-            <Card isBlurred className="shadow-2xl max-w-[400px] border-2 border-black rounded-2xl p-4 w-5/6 h-80 text-black">
+            <Card isBlurred className={classNames(styles.grow, "shadow-2xl max-w-[400px] border-2 border-black rounded-2xl p-4 w-5/6 h-80 text-black")}>
                 <CardHeader className="flex gap-3">
                     <Image
-                        alt="nextui logo"
+                        alt="Yahoo Finance Web Scraper Logo"
                         className='w-12 lg:w-24'
                         src={YahooScraperLogo}
                     />
