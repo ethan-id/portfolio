@@ -1,6 +1,6 @@
 'use client';
 
-import { Card, CardHeader, CardBody, CardFooter, Divider, Link } from '@nextui-org/react';
+import { Card, CardHeader, CardBody, CardFooter, Chip, Link } from '@nextui-org/react';
 import Image from 'next/image';
 import BizGlimpseLogo from './Logo.png';
 import DinderLogo from './dinder_logo_512.png';
@@ -40,7 +40,7 @@ export const Projects = () => {
                         showAnchorIcon
                         href="https://github.com/ethan-id/BizGlimpse"
                     >
-                        View source code on GitHub.
+                        View source code on GitHub
                     </Link>
                 </CardFooter>
             </Card>
@@ -65,6 +65,7 @@ export const Projects = () => {
                 </CardHeader>
                 <CardBody>
                     <p>Get matched with local restaurants based on your preferences or your group's.</p>
+                    <Chip className='bg-amber-300 mt-5'>👑 Best Project Award 👑</Chip>
                 </CardBody>
                 <CardFooter>
                     <Link
@@ -72,7 +73,7 @@ export const Projects = () => {
                         showAnchorIcon
                         href='https://github.com/ethan-id/Dinder'
                     >
-                        View source code on GitHub.
+                        View source code on GitHub
                     </Link>
                 </CardFooter>
             </Card>
@@ -97,7 +98,7 @@ export const Projects = () => {
                         showAnchorIcon
                         href='https://github.com/ProjectGreenBoat/yahoo-finance-scraper'
                     >
-                        View source code on GitHub.
+                        View source code on GitHub
                     </Link>
                 </CardFooter>
             </Card>
