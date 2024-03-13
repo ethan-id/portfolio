@@ -19,11 +19,11 @@ export const LandingPage = () => {
                         </p>
                         <div className={classNames('text-5xl ml-10 md:ml-20 mt-5 lg:mt-10 lg:text-6xl font-normal', styles.fadeDown2)}>
                             I build 
-                            <div className='py-2 mx-2 dark:bg-black bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center'>
+                            <div className='py-2 mx-2 font-extralight dark:bg-black bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center'>
                                 <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_70%,black)]"></div>
                                 precise,
                             </div> 
-                            <p className='underline py-2'>engaging,</p>
+                            <p className='font-bold py-2'>engaging,</p>
                             <Link 
                                 isExternal
                                 href="https://www.a11yproject.com/"
