@@ -39,7 +39,7 @@ export const LandingPage = () => {
                             className='dark:block rounded-3xl'
                             alt="Photo of Ethan Hancock"
                         />
-                        <p className='text-ld mt-2'>There I am!</p>
+                        <p className='text-ld mt-2'>There I am, ziplining in Cancún!</p>
                     </div>
                 </div>
             </div>
@@ -54,13 +54,11 @@ export const LandingPage = () => {
                     href="https://www.github.com/ethan-id/"
                     className="shadow-[0px_0px_100px_15px_rgba(42,14,128,0.8)] mx-2 mt-8 border-gray-800 dark:border-gray-800 bg-gray-800 border-[8px] rounded-xl"
                 >
-                    <div className="rounded-lg overflow-hidden bg-white dark:bg-gray-800">
-                        <Image
-                            src={github}
-                            className={classNames(styles.grow,"dark:block rounded w-[100vw]")}
-                            alt="Screenshot of my github profile"
-                        />
-                    </div>
+                    <Image
+                        src={github}
+                        className={classNames(styles.grow,"dark:block rounded w-[100vw]")}
+                        alt="Screenshot of my github profile"
+                    />
                 </a>
             </div>
 
