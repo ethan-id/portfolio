@@ -40,7 +40,7 @@ export const Projects = () => {
                     </div>
                 </CardHeader>
                 <CardBody>
-                    <p>Get a glimpse of any publicly traded company via its ticker symbol, and chat with ChatGPT about the data (using GPT Connector)</p>
+                    <p className='overflow-hidden'>Get a glimpse of any publicly traded company via its ticker symbol, and chat with ChatGPT about the data (using GPT Connector)</p>
                 </CardBody>
                 <CardFooter>
                     <Link
