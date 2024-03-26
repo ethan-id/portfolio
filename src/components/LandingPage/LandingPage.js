@@ -3,7 +3,7 @@ import React from 'react';
 import classNames from 'classnames';
 import Image from 'next/image'
 import github from './github.png'
-import me from './me.png';
+import me from '/public/me.png';
 import Experience from '../Experience/Experience';
 import {Projects} from '../Projects/Projects';
 import {Link} from '@nextui-org/react';
