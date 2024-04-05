@@ -17,7 +17,7 @@ const NavBar = () => {
                 </span>
 
                 <div className="flex flex-row justify-center gap-x-4">
-                    <a target="_blank" href="https://www.linkedin.com/in/ethanhancock23">
+                    <a target="_blank" href="https://www.linkedin.com/in/hancockethan">
                         <img className={classNames(growStyle.grow, "h-8 lg:h-12 w-8 lg:w-12")} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn Logo"/>
                     </a>
                     <a target="_blank" href="https://www.instagram.com/ethan.idfk/">
