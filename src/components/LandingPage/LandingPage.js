@@ -1,3 +1,5 @@
+'use client';
+
 import styles from './LandingPage.module.scss';
 import React from 'react';
 import classNames from 'classnames';
@@ -7,6 +9,8 @@ import me from '/public/me.png';
 import Experience from '../Experience/Experience';
 import {Projects} from '../Projects/Projects';
 import {Link} from '@nextui-org/react';
+import {motion} from 'framer-motion';
+import {HeroHighlight, Highlight} from '../shared/HeroHighlight';
 
 export const LandingPage = () => {
     return (
@@ -46,20 +50,35 @@ export const LandingPage = () => {
 
             <Projects/>
 
-            <div className="flex flex-col 2xl:flex-row m-aut mx-10 2xl:mx-60 mb-20 2xl:mb-48 mt-20 2xl:mt-40">
-                <div className="text-xl lg:text-5xl my-auto text-center leading-tight">
-                    Check my <a className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-purple-600" href="https://www.github.com/ethan-id">GitHub</a> to see more about my projects!
-                </div>
-                <a
-                    href="https://www.github.com/ethan-id/"
-                    className="shadow-[0px_0px_100px_15px_rgba(42,14,128,0.8)] mx-2 mt-8 border-gray-800 dark:border-gray-800 bg-gray-800 border-[8px] rounded-xl"
-                >
-                    <Image
-                        src={github}
-                        className={classNames(styles.grow,"dark:block rounded w-[100vw]")}
-                        alt="Screenshot of my github profile"
-                    />
-                </a>
+            <div className="flex flex-col 2xl:flex-row h-[70vh]">
+                <HeroHighlight>
+                    <motion.h1
+                        initial={{
+                            opacity: 0,
+                            y: 20,
+                        }}
+                        whileInView={{
+                            opacity: 1,
+                            y: [20, -5, 0],
+                        }}
+                        transition={{
+                            duration: 0.5,
+                            ease: [0.4, 0.0, 0.2, 1],
+                        }}
+                        className="text-2xl px-4 md:text-3xl lg:text-5xl font-bold text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-10 2xl:mx-60 mb-20 2xl:mb-48 mt-20 2xl:mt-40"
+                    >
+                        Check my{" "}
+                        <Highlight className="text-white">
+                            <a target='_blank' href='https://github.com/ethan-id'>GitHub</a>
+                        </Highlight>
+                        {" "}for more 
+                        <Image
+                            src={github}
+                            className={classNames(styles.grow,"mt-12 dark:block rounded w-[100vw]")}
+                            alt="Screenshot of my github profile"
+                        />
+                    </motion.h1>
+                </HeroHighlight>
             </div>
 
             <Experience/>
