@@ -1,18 +1,34 @@
 'use client';
 
 import styles from './LandingPage.module.scss';
-import React from 'react';
+import {useEffect, useState} from 'react';
 import classNames from 'classnames';
 import Image from 'next/image'
 import github from './github.png'
 import me from '/public/me.png';
 import Experience from '../Experience/Experience';
 import {Projects} from '../Projects/Projects';
-import {Link} from '@nextui-org/react';
 import {motion} from 'framer-motion';
 import {HeroHighlight, Highlight} from '../shared/HeroHighlight';
 
 export const LandingPage = () => {
+    const words = ['cool', 'innovative', 'aesthetic', 'useful', 'powerful', 'helpful', 'creative', 'efficient', 'scalable', 'intuitive', 'dynamic', 'robust'];
+    const [index, setIndex] = useState(0);
+
+    const [fade, setFade] = useState(true);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setFade(false);
+            setTimeout(() => {
+                setIndex((prevIndex) => (prevIndex + 1) % words.length);
+                setFade(true);
+            }, 1000);
+        }, 5000);
+
+        return () => clearInterval(interval);
+    }, [words.length]);
+
     return (
         <div className='flex flex-col'>
             <div className='px-10 2xl:px-60'>
@@ -21,20 +37,8 @@ export const LandingPage = () => {
                         <p className={classNames('text-6xl', 'lg:text-8xl', 'font-bold', styles.myText, styles.fadeDown1)}>
                             Hey, I'm Ethan!
                         </p>
-                        <div className={classNames('text-5xl ml-10 md:ml-20 mt-5 lg:mt-10 lg:text-6xl font-normal', styles.fadeDown2)}>
-                            I build 
-                            <div className='py-2 mx-2 font-extralight bg-black bg-grid-white/[0.2] relative flex items-center justify-center'>
-                                <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_70%,black)]"></div>
-                                precise,
-                            </div> 
-                            <p className='font-bold py-2'>engaging,</p>
-                            <Link 
-                                isExternal
-                                href="https://www.a11yproject.com/"
-                                className='py-2 text-purple-700 relative flex items-center justify-end'>
-                                    a11y-driven
-                            </Link>
-                            software.
+                        <div className={classNames('text-4xl ml-10 md:ml-20 mt-5 lg:mt-10 lg:text-6xl font-normal', styles.fadeDown2)}>
+                            I love building <p className={classNames('text-purple-800', fade ? styles['fade-in'] : styles['fade-out'])}>{words[index]}</p> software
                         </div>
                     </div>
                     <div className={classNames(styles.fade, 'flex flex-col justify-center items-center w-5/6')}>
@@ -43,7 +47,6 @@ export const LandingPage = () => {
                             className='dark:block rounded-3xl w-5/6'
                             alt="Photo of Ethan Hancock"
                         />
-                        <p className='text-ld mt-2'>There I am, ziplining in Cancún!</p>
                     </div>
                 </div>
             </div>

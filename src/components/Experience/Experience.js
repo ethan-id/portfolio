@@ -111,29 +111,37 @@ const Experience = () => {
                     </ul>
 
                     <ul role="list" className="divide-y divide-gray-100 mx-auto w-72 flex flex-col align-center">
-                        <li className="flex flex-col gap-x-6 py-5">
+                        <li className="flex flex-col justify-between gap-x-6 py-5">
                             <div className="flex flex-row m-auto gap-x-2">
-                                <img className="h-8 lg:h-12 w-8 lg:w-12 flex-none mix-blend-screen m-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="Sass Logo"/>
+                                <img
+                                    className="h-8 lg:h-12 w-8 lg:w-12 flex-none mix-blend-screen m-auto"
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+                                    alt="Bootstrap Logo"
+                                />
                                 <div className="min-w-0 flex-auto m-auto">
-                                    <p className="text-xs lg:text-2xl font-semibold">Sass</p>
+                                    <p className="text-xs lg:text-2xl font-semibold">Java</p>
                                 </div>
                             </div>
                         </li>
-          
+
                         <li className="flex justify-between gap-x-6 py-5">
                             <div className="flex flex-row m-auto gap-x-2">
-                                <img className="h-8 lg:h-12 w-8 lg:w-12 flex-none mix-blend-screen m-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt='Tailwind Logo'/>
+                                <img className="h-8 lg:h-12 w-8 lg:w-12 flex-none mix-blend-screen m-auto"
+                                     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+                                     alt='Tailwind Logo'/>
                                 <div className="min-w-0 flex-auto m-auto">
                                     <p className="text-xs lg:text-2xl font-semibold">Tailwind</p>
                                 </div>
                             </div>
                         </li>
 
-                        <li className="flex flex-col justify-between gap-x-6 py-5">
+                        <li className="flex flex-col gap-x-6 py-5">
                             <div className="flex flex-row m-auto gap-x-2">
-                                <img className="h-8 lg:h-12 w-8 lg:w-12 flex-none mix-blend-screen m-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap Logo"/>
+                                <img className="h-8 lg:h-12 w-8 lg:w-12 flex-none mix-blend-screen m-auto"
+                                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+                                     alt="Sass Logo"/>
                                 <div className="min-w-0 flex-auto m-auto">
-                                    <p className="text-xs lg:text-2xl font-semibold">Bootstrap</p>
+                                    <p className="text-xs lg:text-2xl font-semibold">Sass</p>
                                 </div>
                             </div>
                         </li>
@@ -142,7 +150,9 @@ const Experience = () => {
                     <ul role="list" className="divide-y divide-gray-100 mx-auto w-72">
                         <li className="flex flex-col justify-between gap-x-6 py-5">
                             <div className="flex flex-row m-auto gap-x-2">
-                                <img className="h-8 lg:h-12 w-8 lg:w-12 flex-none bg-white rounded-full m-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg" alt="NextJS Logo"/>
+                                <img className="h-8 lg:h-12 w-8 lg:w-12 flex-none bg-white rounded-full m-auto"
+                                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg"
+                                     alt="NextJS Logo"/>
                                 <div className="min-w-0 flex-auto m-auto">
                                     <p className="text-xs lg:text-2xl font-semibold">NextJS</p>
                                 </div>
