@@ -24,7 +24,7 @@ export const LandingPage = () => {
                 setIndex((prevIndex) => (prevIndex + 1) % words.length);
                 setFade(true);
             }, 1000);
-        }, 3000);
+        }, 5000);
 
         return () => clearInterval(interval);
     }, [words.length]);
