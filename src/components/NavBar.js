@@ -2,10 +2,10 @@
 
 import React from 'react';
 import Image from 'next/image';
-import ig from '../../images/ig.png';
-import medium from '../../images/medium-round-line-icon.png';
+import ig from '../images/ig.png';
+import medium from '../images/medium-round-line-icon.png';
 import styles from './NavBar.module.scss';
-import growStyle from '../LandingPage/LandingPage.module.scss';
+import growStyle from './LandingPage.module.scss';
 import classNames from 'classnames';
 
 const NavBar = () => {

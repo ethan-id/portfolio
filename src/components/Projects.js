@@ -2,14 +2,14 @@
 
 import { Card, CardHeader, CardBody, CardFooter, Chip, Link } from '@nextui-org/react';
 import Image from 'next/image';
-import BizGlimpseLogo from './Logo.png';
-import DinderLogo from './dinder_logo_512.png';
-import YahooScraperLogo from './yahoo-scraper.png';
-import OpenAI from './openai.svg';
-import AI from './ai.jpg';
+import BizGlimpseLogo from '@/images/Logo.png';
+import DinderLogo from '@/images/dinder_logo_512.png';
+import YahooScraperLogo from '@/images/yahoo-scraper.png';
+import OpenAI from '@/images/openai.svg';
+import AI from '@/images/ai.jpg';
 import classNames from 'classnames';
-import styles from '../LandingPage/LandingPage.module.scss';
-import { TypewriterEffect } from '../shared/TypeWriterEffect';
+import styles from './LandingPage.module.scss';
+import { TypewriterEffect } from './shared/TypeWriterEffect';
 
 export const Projects = () => {
 
