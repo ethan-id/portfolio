@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import styles from '../NavBar/NavBar.module.scss'
+import styles from './NavBar.module.scss'
 import classNames from 'classnames';
 
 const Footer = () => {
