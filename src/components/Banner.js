@@ -5,7 +5,7 @@ import me from "../../public/me.png";
 import {useEffect, useState} from "react";
 
 export const Banner = () => {
-    const words = ['cool', 'innovative', 'aesthetic', 'useful', 'powerful', 'helpful', 'creative', 'efficient', 'scalable', 'intuitive', 'dynamic', 'robust'];
+    const words = ['innovative', 'aesthetic', 'useful', 'powerful', 'helpful', 'creative', 'efficient', 'intuitive', 'dynamic', 'robust'];
     const [index, setIndex] = useState(0);
 
     const [fade, setFade] = useState(true);
@@ -29,10 +29,12 @@ export const Banner = () => {
                     <p className={classNames('text-6xl', 'lg:text-8xl', 'font-bold', styles.myText, styles.fadeDown1)}>
                         Hey, I'm Ethan!
                     </p>
-                    <div
-                        className={classNames('text-4xl ml-10 md:ml-20 mt-5 lg:mt-10 lg:text-6xl font-normal', styles.fadeDown2)}>
-                        I love building <p
-                        className={classNames('text-purple-800', fade ? styles['fade-in'] : styles['fade-out'])}>{words[index]}</p> software
+                    <div className={classNames('text-4xl ml-10 md:ml-20 mt-5 lg:mt-10 lg:text-6xl font-normal', styles.fadeDown2)}>
+                        I love building
+                        <p className={classNames('text-purple-800', fade ? styles['fade-in'] : styles['fade-out'])}>
+                            {words[index]}
+                        </p>
+                        software
                     </div>
                 </div>
                 <div className={classNames(styles.fade, 'flex flex-col justify-center items-center w-5/6')}>
