@@ -26,7 +26,7 @@ export const Experience = () => {
                     </div>
                     <div className="align-center">
                         <p className="text-sm lg:text-2xl text-right font-semibold">Incoming Software Engineer Intern</p>
-                        <p className="flex mt-1 text-xs lg:text-lg justify-end">May 2024 - August 2024</p>
+                        <p className="flex mt-1 text-xs lg:text-lg justify-end">May 2025 - August 2025</p>
                     </div>
                 </li>
                 <li className="flex justify-between gap-x-6 py-5">
@@ -43,7 +43,7 @@ export const Experience = () => {
                     <div className="align-center">
                         <p className="text-sm lg:text-2xl text-right font-semibold">Part Time Student</p>
                         <p className="text-sm lg:text-2xl text-right font-semibold">Software Engineer Apprentice</p>
-                        <p className="flex mt-1 text-xs lg:text-lg justify-end">May 2021 - May 2024</p>
+                        <p className="flex mt-1 text-xs lg:text-lg justify-end">May 2021 - May 2025</p>
                     </div>
                 </li>
                 <li className="flex justify-between gap-x-6 py-5">
