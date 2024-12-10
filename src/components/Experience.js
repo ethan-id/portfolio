@@ -2,7 +2,6 @@ import Image from "next/image";
 import deere from "@/images/deere-logo.png";
 import promax from "@/images/promax-logo.jpeg";
 import corteva from "@/images/corteva.png";
-import React from "react";
 
 export const Experience = () => {
     return (
