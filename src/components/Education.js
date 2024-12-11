@@ -1,7 +1,7 @@
 export const Education = () => {
     return (
         <div className="mt-5">
-            <div className="flex justify-left text-2xl lg:text-5xl font-semibold lg:mb-5">
+            <div className="flex justify-left text-2xl lg:text-3xl font-semibold lg:mb-5">
                 Education
             </div>
             <ul role="list" className="divide-y divide-gray-100">
@@ -13,16 +13,16 @@ export const Education = () => {
                             alt="Deere & Co. Logo"
                         />
                         <div className="min-w-0 flex-auto m-auto">
-                            <p className="text-lg lg:text-2xl font-semibold">
+                            <p className="text-lg lg:text-xl font-semibold">
                                 Iowa State University
                             </p>
                         </div>
                     </div>
                     <div className="align-center">
-                        <p className="text-sm lg:text-2xl text-right font-semibold">
+                        <p className="text-sm lg:text-xl text-right font-semibold">
                             B.S. Software Engineering
                         </p>
-                        <p className="flex mt-1 text-xs lg:text-lg justify-end">
+                        <p className="flex mt-1 text-xs lg:text-[16px] justify-end">
                             Aug 2021 - Dec 2025
                         </p>
                     </div>
