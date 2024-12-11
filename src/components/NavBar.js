@@ -12,13 +12,19 @@ const NavBar = () => {
     return (
         <section>
             <nav className="flex flex-col 2xl:flex-row justify-between mx-auto p-10 px-14 lg:px-28">
-                <div className="flex flex-row gap-8 justify-between items-center">
+                <div className="flex flex-row gap-8 justify-center md:justify-between items-center">
                     <span className="self-center text-3xl sm:text-4xl font-semibold whitespace-nowrap text-white">
                         {"<Ethan Hancock>"}
                     </span>
-                    <a href="#projects">Projects</a>
-                    <a href="#github">GitHub</a>
-                    <a href="#resume">Experience</a>
+                    <a className="hidden md:block" href="#projects">
+                        Projects
+                    </a>
+                    <a className="hidden md:block" href="#github">
+                        GitHub
+                    </a>
+                    <a className="hidden md:block" href="#resume">
+                        Experience
+                    </a>
                 </div>
 
                 <div className="flex flex-row justify-center gap-x-4">
