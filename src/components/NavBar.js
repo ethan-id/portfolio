@@ -3,7 +3,6 @@
 import React from "react";
 import Image from "next/image";
 import ig from "../images/ig.png";
-import medium from "../images/medium-round-line-icon.png";
 import styles from "./NavBar.module.scss";
 import growStyle from "./LandingPage.module.scss";
 import classNames from "classnames";
@@ -51,17 +50,7 @@ const NavBar = () => {
                                 growStyle.grow,
                                 "h-8 lg:h-12 w-8 lg:w-12",
                             )}
-                            alt="Screenshot of my github profile"
-                        />
-                    </a>
-                    <a target="_blank" href="https://medium.com/@ehancock1648">
-                        <Image
-                            src={medium}
-                            className={classNames(
-                                growStyle.grow,
-                                "h-8 lg:h-12 w-8 lg:w-12 bg-white rounded-full",
-                            )}
-                            alt="Screenshot of my github profile"
+                            alt="Instagram Logo"
                         />
                     </a>
                 </div>
