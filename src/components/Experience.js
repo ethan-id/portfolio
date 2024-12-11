@@ -1,7 +1,7 @@
-import Image from "next/image";
-import deere from "@/images/deere-logo.png";
-import promax from "@/images/promax-logo.jpeg";
-import corteva from "@/images/corteva.png";
+import Image from 'next/image';
+import deere from '@/images/deere-logo.png';
+import promax from '@/images/promax-logo.jpeg';
+import corteva from '@/images/corteva.png';
 
 export const Experience = () => {
     return (
@@ -17,7 +17,7 @@ export const Experience = () => {
                         <Image
                             src={corteva}
                             className={
-                                "h-8 lg:h-16 w-8 lg:w-16 rounded-lg mix-blend-screen m-auto"
+                                'h-8 lg:h-16 w-8 lg:w-16 rounded-lg mix-blend-screen m-auto'
                             }
                             alt="Corteva Agriscience Logo"
                         />
@@ -41,7 +41,7 @@ export const Experience = () => {
                         <Image
                             src={deere}
                             className={
-                                "h-8 lg:h-16 w-8 lg:w-16 rounded-lg mix-blend-screen m-auto"
+                                'h-8 lg:h-16 w-8 lg:w-16 rounded-lg mix-blend-screen m-auto'
                             }
                             alt="John Deere Logo"
                         />
@@ -68,7 +68,7 @@ export const Experience = () => {
                         <Image
                             src={promax}
                             className={
-                                "h-8 lg:h-16 w-8 lg:w-16 rounded-lg mix-blend-screen m-auto"
+                                'h-8 lg:h-16 w-8 lg:w-16 rounded-lg mix-blend-screen m-auto'
                             }
                             alt="ProMax Logo"
                         />
