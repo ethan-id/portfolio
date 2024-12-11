@@ -22,7 +22,7 @@ export const GitHub = () => {
                         duration: 0.5,
                         ease: [0.4, 0.0, 0.2, 1],
                     }}
-                    className="text-2xl px-4 md:text-3xl lg:text-5xl font-bold text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-10 2xl:mx-60 mb-20 2xl:mb-48 mt-20 2xl:mt-40"
+                    className="text-2xl px-4 md:text-3xl lg:text-5xl font-bold text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-10 2xl:mx-60 my-64"
                 >
                     Check my{" "}
                     <Highlight className="text-white">
