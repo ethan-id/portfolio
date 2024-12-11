@@ -31,14 +31,16 @@ export const GitHub = () => {
                         </a>
                     </Highlight>{" "}
                     for more
-                    <Image
-                        src={github}
-                        className={classNames(
-                            styles.grow,
-                            "mt-12 dark:block rounded w-[100vw]",
-                        )}
-                        alt="Screenshot of my github profile"
-                    />
+                    <a target="_blank" href="https://github.com/ethan-id">
+                        <Image
+                            src={github}
+                            className={classNames(
+                                styles.grow,
+                                "mt-12 dark:block rounded w-[100vw]",
+                            )}
+                            alt="Screenshot of my github profile"
+                        />
+                    </a>
                 </motion.h1>
             </HeroHighlight>
         </div>
