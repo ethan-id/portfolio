@@ -1,5 +1,5 @@
-import {HeroHighlight, Highlight} from "@/components/shared/HeroHighlight";
-import {motion} from "framer-motion";
+import { HeroHighlight, Highlight } from "@/components/shared/HeroHighlight";
+import { motion } from "framer-motion";
 import Image from "next/image";
 import github from "@/images/github-profile.png";
 import classNames from "classnames";
@@ -7,7 +7,7 @@ import styles from "@/components/LandingPage.module.scss";
 
 export const GitHub = () => {
     return (
-        <div className="flex flex-col 2xl:flex-row h-[70vh]">
+        <div className="flex flex-col 2xl:flex-row h-[70vh]" id="github">
             <HeroHighlight>
                 <motion.h1
                     initial={{
@@ -26,16 +26,21 @@ export const GitHub = () => {
                 >
                     Check my{" "}
                     <Highlight className="text-white">
-                        <a target='_blank' href='https://github.com/ethan-id'>GitHub</a>
-                    </Highlight>
-                    {" "}for more
+                        <a target="_blank" href="https://github.com/ethan-id">
+                            GitHub
+                        </a>
+                    </Highlight>{" "}
+                    for more
                     <Image
                         src={github}
-                        className={classNames(styles.grow,"mt-12 dark:block rounded w-[100vw]")}
+                        className={classNames(
+                            styles.grow,
+                            "mt-12 dark:block rounded w-[100vw]",
+                        )}
                         alt="Screenshot of my github profile"
                     />
                 </motion.h1>
             </HeroHighlight>
         </div>
     );
-}
+};
