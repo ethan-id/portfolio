@@ -18,8 +18,8 @@ export const Projects = () => {
             logo: Tree,
             description: 'See all of the National Park Services designated National Parks and learn more about them!',
             rounded: false,
-            link: 'https://national-parks-finder.vercel.app/',
-            github: 'https://github.com/ethan-id/national-parks-finder'
+            link: 'https://find-your-park.com',
+            github: 'https://github.com/ethan-id/find-your-park'
         },
         {
             name: 'Dinder',
