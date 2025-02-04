@@ -14,7 +14,7 @@ import {TypewriterEffect} from './shared/TypeWriterEffect';
 export const Projects = () => {
     const projects = [
         {
-            name: 'National Parks Finder',
+            name: 'Find Your Park',
             logo: Tree,
             description: 'See all of the National Park Services designated National Parks and learn more about them!',
             rounded: false,
