@@ -1,9 +1,6 @@
-'use client';
-
-import React from 'react';
 import styles from './NavBar.module.scss';
 
-const Footer = () => {
+export const Footer = () => {
     return (
         <nav>
             <div className={styles.navBorder}></div>
@@ -15,5 +12,3 @@ const Footer = () => {
         </nav>
     );
 };
-
-export default Footer;

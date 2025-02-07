@@ -1,3 +1,5 @@
+'use client';
+
 import {HeroHighlight, Highlight} from '@/components/shared/HeroHighlight';
 import {motion} from 'framer-motion';
 import Image from 'next/image';

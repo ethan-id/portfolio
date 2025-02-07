@@ -6,7 +6,7 @@ import {Experience} from '@/components/Experience';
 export const Resume = () => {
     return (
         <div
-            className={'px-20 md:px-40 lg:px-64 lg:pt-24 2xl:px-96'}
+            className={'px-8 md:px-40 lg:px-64 lg:pt-24 2xl:px-96'}
             id='resume'
         >
             <div className='text-xl text-center lg:text-5xl font-normal leading-relaxed'>

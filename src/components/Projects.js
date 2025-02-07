@@ -1,15 +1,12 @@
-'use client';
-
 import {Card, CardHeader, CardBody, CardFooter, Chip, Link} from '@nextui-org/react';
 import Image from 'next/image';
 import BizGlimpseLogo from '@/images/Logo.png';
 import DinderLogo from '@/images/dinder_logo_512.png';
 import YahooScraperLogo from '@/images/yahoo-scraper.png';
 import OpenAI from '@/images/openai.svg';
-import AI from '@/images/ai.jpg';
 import Tree from '@/images/tree.png';
 import ScrabbleSearch from '@/images/scrabble-search.png';
-import {TypewriterEffect} from './shared/TypeWriterEffect';
+import {ProjectsTypewriter} from './projects-typewriter';
 
 export const Projects = () => {
     const projects = [
@@ -68,15 +65,7 @@ export const Projects = () => {
             id='projects'
         >
             <div className='container mx-auto px-4'>
-                <TypewriterEffect
-                    words={[
-                        {
-                            text: 'Projects',
-                            className: 'text-5xl lg:text-6xl font-bold text-white text-center mb-12'
-                        }
-                    ]}
-                    cursorClassName={'hidden'}
-                />
+                <ProjectsTypewriter />
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
                     {projects.map((project, index) => (
                         <Card
