@@ -1,13 +1,10 @@
-'use client';
-
-import React from 'react';
 import Image from 'next/image';
 import ig from '../images/ig.png';
 import styles from './NavBar.module.scss';
 import growStyle from './LandingPage.module.scss';
 import classNames from 'classnames';
 
-const NavBar = () => {
+export const NavBar = () => {
     return (
         <section>
             <nav className='flex flex-col 2xl:flex-row justify-between mx-auto p-10 px-14 lg:px-28'>
@@ -59,5 +56,3 @@ const NavBar = () => {
         </section>
     );
 };
-
-export default NavBar;

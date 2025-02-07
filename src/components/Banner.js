@@ -1,3 +1,5 @@
+'use client';
+
 import classNames from 'classnames';
 import styles from '@/components/LandingPage.module.scss';
 import Image from 'next/image';
@@ -18,7 +20,6 @@ export const Banner = () => {
         'robust'
     ];
     const [index, setIndex] = useState(0);
-
     const [fade, setFade] = useState(true);
 
     useEffect(() => {

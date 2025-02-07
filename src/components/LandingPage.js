@@ -1,5 +1,3 @@
-'use client';
-
 import {Resume} from '@/components/Resume';
 import {Projects} from '@/components/Projects';
 import {GitHub} from '@/components/GitHub';
