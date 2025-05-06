@@ -34,9 +34,9 @@ export const Skills = () => {
             alt: 'Sass Logo'
         },
         {
-            name: 'NextJS',
-            src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg',
-            alt: 'NextJS Logo'
+            name: 'Go',
+            src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg',
+            alt: 'Golang Logo'
         },
         {
             name: 'MongoDB',
@@ -44,9 +44,9 @@ export const Skills = () => {
             alt: 'MongoDB Logo'
         },
         {
-            name: 'NodeJS',
-            src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
-            alt: 'NodeJS Logo'
+            name: 'NextJS',
+            src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg',
+            alt: 'NextJS Logo'
         }
     ];
 

@@ -2,14 +2,21 @@ import {Card, CardHeader, CardBody, CardFooter, Chip, Link} from '@nextui-org/re
 import Image from 'next/image';
 import BizGlimpseLogo from '@/images/Logo.png';
 import DinderLogo from '@/images/dinder_logo_512.png';
-import YahooScraperLogo from '@/images/yahoo-scraper.png';
 import OpenAI from '@/images/openai.svg';
 import Tree from '@/images/tree.png';
 import ScrabbleSearch from '@/images/scrabble-search.png';
+import ML from '@/images/senior-logo.png';
 import {ProjectsTypewriter} from './projects-typewriter';
 
 export const Projects = () => {
     const projects = [
+        {
+            name: 'Machine Learning on the Edge',
+            logo: ML,
+            description: 'ML-Powered Room Occupancy Tracking System for University Campuses',
+            rounded: false,
+            github: 'https://github.com/ethan-id/sddec25-05-mirror'
+        },
         {
             name: 'Find Your Park',
             logo: Tree,
@@ -49,13 +56,6 @@ export const Projects = () => {
             description:
                 "A Flask API for an AI assistant built using R.A.G. with OpenAI's GPT-3.5-turbo for data queries; Deployed on Google Cloud Run for usage in BizGlimpse",
             github: 'https://github.com/ethan-id/gpt-connector'
-        },
-        {
-            name: 'Yahoo Finance Web Scraper',
-            logo: YahooScraperLogo,
-            rounded: false,
-            description: 'Web-scraper used to gather over 500 data points, all scraped in real-time from Yahoo Finance',
-            github: 'https://github.com/ProjectGreenBoat/yahoo-finance-scraper'
         }
     ];
 
