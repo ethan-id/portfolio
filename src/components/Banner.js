@@ -43,18 +43,12 @@ export const Banner = () => {
                             'text-6xl',
                             'lg:text-8xl',
                             'font-bold',
-                            styles.myText,
-                            styles.fadeDown1
+                            styles.myText
                         )}
                     >
                         Hey, I'm Ethan!
                     </p>
-                    <div
-                        className={classNames(
-                            'text-4xl ml-10 md:ml-20 mt-5 lg:mt-10 lg:text-6xl font-normal',
-                            styles.fadeDown2
-                        )}
-                    >
+                    <div className={'text-4xl ml-10 md:ml-20 mt-5 lg:mt-10 lg:text-6xl font-normal'}>
                         I love building
                         <p
                             className={classNames(
