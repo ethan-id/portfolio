@@ -25,7 +25,7 @@ export const Experience = () => {
                         </div>
                     </div>
                     <div className='align-center'>
-                        <p className='text-xs lg:text-xl text-right font-semibold'>Incoming Software Engineer Intern</p>
+                        <p className='text-xs lg:text-xl text-right font-semibold'>Software Engineer Intern</p>
                         <p className='flex mt-1 text-xs font-light lg:font-normal lg:text-[16px] justify-end text-right'>
                             May 2025 - August 2025
                         </p>
